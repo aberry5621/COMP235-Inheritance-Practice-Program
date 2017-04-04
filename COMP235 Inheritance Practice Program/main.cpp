@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include "Employee.hpp"
+#include "HourlyEmployee.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -18,6 +19,10 @@ int main(int argc, const char * argv[]) {
     std::cout << new_hire.getName() << std::endl;
     
     new_hire.printCheck();
+    
+    HourlyEmployee staffer;
+    staffer.setName("Jim");
+    std::cout << staffer.getName();
     
     return 0;
 }
