@@ -17,5 +17,7 @@ int main(int argc, const char * argv[]) {
     
     std::cout << new_hire.getName() << std::endl;
     
+    new_hire.printCheck();
+    
     return 0;
 }

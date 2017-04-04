@@ -33,7 +33,7 @@ void Employee::setNetPay(double newNetPay) {netPay = newNetPay;}
 
 void Employee::printCheck() const {
 
-    cout << "\nERR: EMPLOYEE NOT DIFFERENTIATED\n";
+    cout << "\nERR: printCheck called for EMPLOYEE NOT DIFFERENTIATED\n";
     exit(1);
 
 }
