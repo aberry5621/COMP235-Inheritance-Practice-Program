@@ -11,6 +11,7 @@
 		466C41171E94258900EAB076 /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 466C41151E94258900EAB076 /* Employee.cpp */; };
 		466C411A1E94259E00EAB076 /* HourlyEmployee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 466C41181E94259E00EAB076 /* HourlyEmployee.cpp */; };
 		466C411D1E9425B000EAB076 /* SalariedEmployee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 466C411B1E9425B000EAB076 /* SalariedEmployee.cpp */; };
+		466C41201E9460C800EAB076 /* Administrator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 466C411E1E9460C800EAB076 /* Administrator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		466C41191E94259E00EAB076 /* HourlyEmployee.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = HourlyEmployee.hpp; sourceTree = "<group>"; };
 		466C411B1E9425B000EAB076 /* SalariedEmployee.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SalariedEmployee.cpp; sourceTree = "<group>"; };
 		466C411C1E9425B000EAB076 /* SalariedEmployee.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SalariedEmployee.hpp; sourceTree = "<group>"; };
+		466C411E1E9460C800EAB076 /* Administrator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Administrator.cpp; sourceTree = "<group>"; };
+		466C411F1E9460C800EAB076 /* Administrator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Administrator.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 				466C41191E94259E00EAB076 /* HourlyEmployee.hpp */,
 				466C411B1E9425B000EAB076 /* SalariedEmployee.cpp */,
 				466C411C1E9425B000EAB076 /* SalariedEmployee.hpp */,
+				466C411E1E9460C800EAB076 /* Administrator.cpp */,
+				466C411F1E9460C800EAB076 /* Administrator.hpp */,
 			);
 			path = "COMP235 Inheritance Practice Program";
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				466C410F1E9421D900EAB076 /* main.cpp in Sources */,
+				466C41201E9460C800EAB076 /* Administrator.cpp in Sources */,
 				466C411A1E94259E00EAB076 /* HourlyEmployee.cpp in Sources */,
 				466C411D1E9425B000EAB076 /* SalariedEmployee.cpp in Sources */,
 				466C41171E94258900EAB076 /* Employee.cpp in Sources */,
