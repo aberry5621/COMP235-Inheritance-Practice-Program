@@ -37,12 +37,11 @@ void HourlyEmployee::printCheck() {
     setNetPay(hours * wageRate);
     
     cout << "\n_______________________________________________________\n";
-    cout << "Pay to the order of: "<< getName() << endl;
-    cout << "Teh sum of: "<< getNetPay() << "Dollars" << endl;
-    cout << "EMPLOYEE NUMBER: "<< getSsn() << endl;
-    cout << "HOURS WORKED: "<< hours << endl;
-    cout << "WAGE RATE: "<< wageRate << endl;
+    cout << "Pay to the order of: " << getName() << endl;
+    cout << "Teh sum of: " << getNetPay() << "Dollars" << endl;
+    cout << "EMPLOYEE NUMBER: " << getSsn() << endl;
+    cout << "HOURS WORKED: " << hours << endl;
+    cout << "WAGE RATE: " << wageRate << endl;
     cout << "\n_______________________________________________________\n";
-
+    
 }
-

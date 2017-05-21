@@ -8,11 +8,13 @@
 
 #include <string>
 #include <iostream>
+#include <iomanip>
 #include "SalariedEmployee.hpp"
 using std::string;
+using std::fixed;
+using std::setprecision;
 using std::cout;
 using std::endl;
-
 
 SalariedEmployee::SalariedEmployee() : Employee(), salary(0) {}
 
@@ -29,8 +31,8 @@ void SalariedEmployee::setSalary(double newSalary) {
 void SalariedEmployee::printCheck() {
     setNetPay(salary);
     cout << "\n_______________________________________________________\n";
-    cout << "Pay to the order of: "<< getName() << endl;
-    cout << "Teh sum of: "<< getNetPay() << "Dollars" << endl;
-    cout << "EMPLOYEE NUMBER: "<< getSsn() << endl;
+    cout << "Pay to the order of: " << getName() << endl;
+    cout << "The sum of: $" << fixed << setprecision(2) << getNetPay() << endl;
+    cout << "EMPLOYEE NUMBER: " << getSsn() << endl;
     cout << "\n_______________________________________________________\n";
 }

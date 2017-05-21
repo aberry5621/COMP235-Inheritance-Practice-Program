@@ -9,7 +9,6 @@
 #ifndef SalariedEmployee_hpp
 #define SalariedEmployee_hpp
 
-#include <stdio.h>
 #include <string>
 #include "Employee.hpp"
 
@@ -23,8 +22,9 @@ public:
     double getSalary() const;
     void setSalary(double newSalary);
     void printCheck();
-private:
+protected:
     double salary;
 };
+
 
 #endif /* SalariedEmployee_hpp */

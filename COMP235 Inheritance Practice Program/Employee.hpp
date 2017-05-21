@@ -9,12 +9,11 @@
 #ifndef Employee_hpp
 #define Employee_hpp
 
-#include <stdio.h>
 #include <string>
 using std::string;
 
 class Employee {
-
+    
 public:
     Employee();
     Employee(const string& theName, const string& theSsn);

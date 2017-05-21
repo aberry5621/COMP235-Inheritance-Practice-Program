@@ -70,14 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				466C410E1E9421D900EAB076 /* main.cpp */,
-				466C41151E94258900EAB076 /* Employee.cpp */,
 				466C41161E94258900EAB076 /* Employee.hpp */,
-				466C41181E94259E00EAB076 /* HourlyEmployee.cpp */,
+				466C41151E94258900EAB076 /* Employee.cpp */,
 				466C41191E94259E00EAB076 /* HourlyEmployee.hpp */,
-				466C411B1E9425B000EAB076 /* SalariedEmployee.cpp */,
+				466C41181E94259E00EAB076 /* HourlyEmployee.cpp */,
 				466C411C1E9425B000EAB076 /* SalariedEmployee.hpp */,
-				466C411E1E9460C800EAB076 /* Administrator.cpp */,
+				466C411B1E9425B000EAB076 /* SalariedEmployee.cpp */,
 				466C411F1E9460C800EAB076 /* Administrator.hpp */,
+				466C411E1E9460C800EAB076 /* Administrator.cpp */,
 			);
 			path = "COMP235 Inheritance Practice Program";
 			sourceTree = "<group>";
@@ -270,6 +270,7 @@
 				466C41141E9421D900EAB076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

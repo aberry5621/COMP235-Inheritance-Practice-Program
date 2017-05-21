@@ -7,11 +7,13 @@
 //
 /**
  Administrator Class
- derived from Salaried Employee
- change private to protected
+ 
+ X derived from Salaried Employee
+ ? change private to protected
+ 
  supply additonal data and function members:
  • member variable string contains administrators title
- • member var string contains area of responsibility
+ • member var string contains area of responsibility
  • member var string contains supervisor name
  • protencted member var double contains administrator annual salary
  • member function setSupervisor changes supervisor name
@@ -26,5 +28,26 @@
 #define Administrator_hpp
 
 #include <stdio.h>
+#include <string>
+#include "SalariedEmployee.hpp"
+
+class Administrator : public SalariedEmployee {
+    
+public:
+    Administrator();
+    Administrator(const string& theTitle, const string& areaResponsible, const string& immedSuper);
+    // member function setSupervisor changes supervisor name
+    void setSupervisor(string theSuperName);
+    // member function reads in admin's data from keyboard
+    void setAdminData();
+    // member function print outputs object data to screen
+    void printAdminData();
+    void printCheck();
+    
+private:
+    string adminTitle;
+    string areaResponsible;
+    string immediateSupervisor;
+};
 
 #endif /* Administrator_hpp */

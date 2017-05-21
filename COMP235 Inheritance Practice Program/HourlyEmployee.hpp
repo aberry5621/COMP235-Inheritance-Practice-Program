@@ -9,14 +9,13 @@
 #ifndef HourlyEmployee_hpp
 #define HourlyEmployee_hpp
 
-#include <stdio.h>
 #include <string>
 #include "Employee.hpp"
 
 using std::string;
 
 class HourlyEmployee : public Employee {
-
+    
 public:
     HourlyEmployee();
     HourlyEmployee(const string& theName, const string& theSsn, double theWageRate, double theHours);
@@ -29,6 +28,5 @@ private:
     double wageRate;
     double hours;
 };
-
 
 #endif /* HourlyEmployee_hpp */
